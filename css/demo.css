@@ -1,0 +1,219 @@
+
+
+/* General Demo Style */
+body{
+	background:#fff;
+	color:#000;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:13px;
+	min-height:800px;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+
+.jp-container{
+    width:1371px;
+    height:400px;
+    position:relative;
+    background:#fff;
+    border:1px solid #D8DFEA;
+	float:left;
+}
+.jp-container a{
+    padding:15px 20px;
+    display:block;
+    line-height:20px;
+    background-color: #fff;
+    border-bottom:1px solid #F2F4F8;
+    border-top:1px solid #D8DFEA;
+}
+.jp-container a:first-child{
+    border-top:none;
+}
+.jp-container a:last-child{
+    border-bottom:none;
+}
+.jp-container a:hover{
+   background:#ECEFF5;
+   border-bottom-color:#ECEFF5;
+}
+.jp-container a h3{ 
+    font-size:14px;
+    font-weight:bold;
+    padding:2px 0 5px 0;
+	text-transform:uppercase;
+}
+.jp-container a img{
+    float:left;
+    margin:5px 10px 0px 0px;
+    padding:3px;
+    background:#fff;
+    border:1px solid #D8DFEA;
+}
+
+
+/*下面为jq的滚动条样式*/
+.jspContainer
+{
+	overflow: hidden;
+	position: relative;
+}
+
+.jspPane
+{
+	position: absolute;
+}
+
+.jspVerticalBar
+{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 100%;
+	background: red;
+}
+
+.jspHorizontalBar
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 16px;
+	background: red;
+}
+
+.jspVerticalBar *,
+.jspHorizontalBar *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.jspCap
+{
+	display: none;
+}
+
+.jspHorizontalBar .jspCap
+{
+	float: left;
+}
+
+.jspTrack
+{
+	background: #fff;
+	position: relative;
+}
+
+.jspDrag
+{
+	background: #000;
+	position: relative;
+	width: 9px;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	border:1px solid #56839a;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.jspHorizontalBar .jspTrack,
+.jspHorizontalBar .jspDrag
+{
+	float: left;
+	height: 100%;
+}
+
+.jspArrow
+{
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled
+{
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow
+{
+	height: 16px;
+}
+
+.jspHorizontalBar .jspArrow
+{
+	width: 16px;
+	float: left;
+	height: 100%;
+}
+
+.jspVerticalBar .jspArrow:focus
+{
+	outline: none;
+}
+
+.jspCorner
+{
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug :( */
+* html .jspCorner
+{
+	margin: 0 -3px 0 0;
+}
+
+/*上面为滚动栏样式*/
+
+
+
+.loading{width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 100; background-color: #fff;}
+.loading .pic{width: 64px; height: 64px; background:url(file:///C|/Users/Administrator/Desktop/a0e2b584-37f7-11e4-a76c-00163e001348/image/loading.gif); position: absolute; left: 0; top: 0; bottom: 0; right: 0; margin: auto;}
